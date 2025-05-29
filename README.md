@@ -1,5 +1,8 @@
 # pangram-font-renderer
 
+
+![]("https://github.com/partrita/ttf-pangram-image-generator/blob/main/data/output/image_JBD2-Regular.png?raw=true")
+
 주어진 TTF 파일을 자동으로 불러와 팬그램(예: "The quick brown fox jumps over the lazy dog") 내용을 이미지로 저장하는 프로그램
 
 # 사용법
@@ -33,8 +36,7 @@ docker run -it -v $(pwd):/app -u "$(id -u):$(id -g)" font-renderer --text "HELLO
 
 ## 결과 확인
 
-실행이 완료되면 `data/outputs` 디렉토리에 아래와 같은 여러 이미지 파일이 생성되어 있을 것입니다.
+실행이 완료되면 `data/output` 디렉토리에 아래와 같은 여러 이미지 파일이 생성되어 있을 것입니다.
 
-![](.data/output/image_MaruBuri-Regular.png)
-![](.data/output/image_NanumMyeongjo.png)
-
+![](data/output/image_NanumMyeongjo.png)
+![](data/output/image_MaruBuri-Regular.png)
