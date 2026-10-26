@@ -6,10 +6,10 @@ readme = "README.md"
 authors = [
     { name = "deepthought", email = "deepthough@postech.ac.kr" }
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "click>=8.1.8",
-    "pillow>=12.3.0",
+    "pillow>=13.0.0",
 ]
 
 [project.scripts]
